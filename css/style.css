@@ -1,0 +1,232 @@
+:root{
+    --primary-color:#007ea7;
+    --secondary-color:#00a8e8;
+    --third-color:#;
+    --white-color:#fff;
+    --text-color: #00b4d8;
+    --text-gray:#999;
+    --black-color:#000;
+    --primary-font:'Roboto',sans-serif;
+    --secondary-font:'Quicksand',sans-serif;
+}
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+a:hover{
+    text-decoration: none;;
+   
+}
+a:hover{
+    color: var(--primary-color) !important;
+}
+ul,ol{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: var(--primary-font);
+    font-size: 100%;
+    font-weight: 400;
+}
+
+ol,ul{
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar{
+    width: 0.625rem;
+}
+::-webkit-scrollbar-track{
+    background: var(--white-color);
+}
+::-webkit-scrollbar-thumb{
+    background: var(--primary-color);
+}
+
+
+
+h1{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 3rem;
+    color: var(--secondary-color);
+}
+h2{
+    font-weight: 700;
+    font-size: 2.25rem;
+    text-transform: capitalize;
+    font-family: var(--secondary-font);
+    color: var(--secondary-color);
+}
+h4{
+    color: var(--secondary-color);
+    font-family: var(--secondary-font);
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+
+}
+h5{
+    color: var(--primary-color);
+}
+p{
+font-size: 1rem;
+color: var(--text-color);
+font-weight: 400;
+letter-spacing: 1px;
+}
+.wrapper {
+    padding-top: 8.25rem;
+    padding-bottom: 8.25rem;
+  }
+  .text-content {
+    width: 70%;
+    margin: auto;
+  }
+
+
+.main-btn {
+    display: inline-block;
+    padding: 0.625rem 1.875rem;
+    background-color:var(--primary-color);
+    border: 0.1875rem solid var(--primary-color);
+    margin-top: 0.625rem;
+    color: var(--white-color);
+    font-size: 0.9375rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    box-shadow: 0px 2px 10px -1px rgb(0 0 0 / 19%);
+    -webkit-transition: all .4s ease-out 0s;
+    -o-transition: all .4s ease-out 0s;
+    transition: all .4s ease-out0s;
+}
+.main-btn:hover{
+    background-color: transparent;
+    color: var(--primary-color);
+
+}
+.white-btn {
+    display: inline-block;
+    padding: 0.625rem 1.875rem;
+    background-color:var(--white-color);
+    border: 0.1875rem solid var(--white-color);
+    margin-top: 0.625rem;
+    color: var(--white-color);
+    font-size: 0.9375rem;
+    font-weight: 600;
+    color: var(--text-color);
+    text-transform: capitalize;
+    box-shadow: 0px 2px 10px -1px rgb(0 0 0 / 19%);
+    -webkit-transition: all .4s ease-out 0s;
+    -o-transition: all .4s ease-out 0s;
+    transition: all .4s ease-out0s;
+}
+
+
+
+
+
+/* header */
+.navigation-wrap{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index: 1000;
+    transition: all 0.3s ease-out;
+}
+.navigation-wrap .nav-item{
+    padding: 0.625rem;
+    transition: all 200ms linear;
+}
+.navbar-toggler:focus{
+    outline:unset;
+    border: unset;
+    box-shadow: unset;
+}
+.nav-link{
+    font-size: 0.9175rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: var(--primary-color);
+    letter-spacing: 1px;
+}
+.navigation-wrap .main-btn{
+    padding:0.3125rem 1.4375rem;
+    box-shadow: none;
+    margin-left:0.625rem ;}
+
+.navigation-wrap.scroll-on{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--white-color);
+    box-shadow: 0 0.125rem 1.75rem 0 rgb(0,0,0,0.09);
+    transition: all 0.15s ease-in-out 0s;
+
+}    
+.top-banner{
+    padding: 10rem 0 9.3rem ;
+    background: url("../images/peakpx.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.testimonial-section{
+    background-color: var(--primary-color);
+}
+.testimonial-section .carousel-item{
+    margin-top: 3rem;
+    padding: 10rem 3.12rem;
+    background-color: var(--white-color);
+    border-radius: 0.9375rem;
+    text-align: center;
+}
+.testimonial-section .carousel-item .carousel-caption img{
+max-width: 5rem;
+border-radius: 50%;
+padding: 0.3125rem;
+}
+.testimonial-section .carousel-item .carousel-caption p{
+    font-size: 1.312rem;
+    line-height: 2.06rem;
+    padding: 0 11% 0.625rem ;
+
+}
+
+.footer{
+    background: var(--primary-color);
+  }
+  .footer .footer-link{
+    font-size: 1rem;
+    color: var(--white-color);
+    padding: 0 1.875rem;
+  }
+  .footer .footer-link:hover{
+    color: var(--white-color) !important;
+  } 
+  .footer a i{
+    font-size: 1.5rem;
+    color: var(--white-color);
+    padding: 0 1rem;
+  }
+
+
+/* blog page */
+
+.content{
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
+.stories{
+    background-size: cover;
+    background-position-y :-200px ;
+}
