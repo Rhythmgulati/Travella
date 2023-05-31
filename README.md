@@ -1,4 +1,6 @@
 # Travella
+Here i have created a very basic website regarding a travelling company 
+In this project i have focused on frontend part and making website responsive .
 
 
 ![Screenshot (45)](https://github.com/Rhythmgulati/Travella/assets/109156350/d1f31db8-d411-47f6-a1d6-c9289d09a457)
