@@ -8,3 +8,4 @@
 ![Screenshot (48)](https://github.com/Rhythmgulati/Travella/assets/109156350/f3438a23-ba39-4bd4-99f4-6cfaba4f38cf)
 ![Screenshot (56)](https://github.com/Rhythmgulati/Travella/assets/109156350/8444f876-bf1a-455c-ab7c-31978cd70922)
 ![Screenshot (59)](https://github.com/Rhythmgulati/Travella/assets/109156350/2e1738e8-ff34-4bdd-b303-f9b10f5e9d0b)
+![Screenshot (50)](https://github.com/Rhythmgulati/Travella/assets/109156350/86672fee-0ab6-4568-a4d1-657c8572f5a7)
